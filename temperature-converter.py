@@ -21,7 +21,7 @@ def convert():
         # text-positive:
     except ValueError:
         result_label.set_text("Please enter a valid number.")
-        result_label.classes("text-lg font-semibold text-negative mt-4")
+        result_label.classes("text-lg font-semibold !text-negative mt-4")
         # text-negative:
 
 with ui.card().classes("w-100 p-6 shadow-xl mx-auto mt-10 rounded-xl"):
